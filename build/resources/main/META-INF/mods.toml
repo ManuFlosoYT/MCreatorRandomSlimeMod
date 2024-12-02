@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="randomslimemod"
+version="1.0.0"
+displayName="Random Slime Mod"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/super-mod-de-manuflosoyt"
+credits="Backport of RandomSuperMod 3.0 Slime set for Minecraft 1.21.1"
+authors="ManuFlosoYT"
+description="Backport of RandomSuperMod 3.0 Slime set for Minecraft 1.21.1"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.randomslimemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

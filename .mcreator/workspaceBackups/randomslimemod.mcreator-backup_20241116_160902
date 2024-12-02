@@ -1,0 +1,72 @@
+{
+  "mod_elements": [
+    {
+      "name": "FlingerPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flinger_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/manufloso/randomslimemod/procedures/FlingerPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Flinger",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flinger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/manufloso/randomslimemod/item/FlingerItem.java",
+          "src/main/resources/assets/randomslimemod/models/item/flinger.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.randomslimemod.flinger": "Flinger"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "randomslimemod",
+    "modName": "Random Slime Mod",
+    "version": "1.0.0",
+    "author": "mbh94, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.manufloso.randomslimemod"
+  },
+  "mcreatorVersion": 202400342716
+}
